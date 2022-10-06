@@ -9,9 +9,13 @@ TODO
   [ ] Become Dracul Decision
   [ ] Found Order Event `event found_ordinul_dracului.0001`
   [ ] Found Order Decision
-    [ ] Fires Event
+    # [ ] Fires Event
 + Update Traits
 + Fix Become Dracul Decision localization
+- Re-analyze faith
+  - maybe have "no head" and "theocratic" instead of temporal so I can get tax benefits without domain limit issues
+  - would lose "communion" option to get money, so should replace that with some other tenet
+  - would lose "great holy war", is there a benefit to that?
 
 IDEAS
 ===========================

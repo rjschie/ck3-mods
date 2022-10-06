@@ -7,28 +7,23 @@
 	is_shown = {
 		is_ruler = yes
 		is_landed = yes
-		has_trait = dracul
-		culture = culture:vlach
+		# has_trait = dracul
+		# culture = culture:vlach
 
-		# NOT = {
-		#   is_target_in_global_variable_list = {
-		#     name = unavailable_unique_decisions
-		#     target = flag:flag_founded_ordinul_dracului
-		#   }
-		# }
-	}
-
-	is_valid = {
+		NOT = {
+		  is_target_in_global_variable_list = {
+		    name = unavailable_unique_decisions
+		    target = flag:flag_founded_ordinul_dracului
+		  }
+		}
 	}
 
 	effect = {
-		# add_to_global_variable_list = {
-		#   name = unavailable_unique_decisions
-		#   target = flag:found_ordinul_dracului_decision
-		# }
+		add_to_global_variable_list = {
+		  name = unavailable_unique_decisions
+		  target = flag:found_ordinul_dracului_decision
+		}
 
-		# set_faith = ordinul_dracului
-
-		# trigger_event = found_ordinul_dracului.0001
+		set_character_faith_with_conversion = faith:ordinul_dracului
 	}
 }

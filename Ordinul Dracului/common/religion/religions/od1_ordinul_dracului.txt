@@ -189,6 +189,8 @@
 	faiths = {
 		ordinul_dracului = {
 			color = { 255 10 10 }
+			icon = custom_faith_1
+
 			religious_head = k_ordinul_dracului
 
 			holy_site = targoviste
