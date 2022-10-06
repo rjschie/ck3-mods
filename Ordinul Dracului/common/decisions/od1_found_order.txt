@@ -1,0 +1,34 @@
+﻿found_ordinul_dracului_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+
+	major = yes
+	ai_check_interval = 0
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		has_trait = dracul
+		culture = culture:vlach
+
+		# NOT = {
+		#   is_target_in_global_variable_list = {
+		#     name = unavailable_unique_decisions
+		#     target = flag:flag_founded_ordinul_dracului
+		#   }
+		# }
+	}
+
+	is_valid = {
+	}
+
+	effect = {
+		# add_to_global_variable_list = {
+		#   name = unavailable_unique_decisions
+		#   target = flag:found_ordinul_dracului_decision
+		# }
+
+		# set_faith = ordinul_dracului
+
+		# trigger_event = found_ordinul_dracului.0001
+	}
+}

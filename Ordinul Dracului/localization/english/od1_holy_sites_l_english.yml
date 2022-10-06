@@ -1,0 +1,4 @@
+﻿l_english:
+ # Târgoviște
+ holy_site_targoviste_name:0 "Târgoviște"
+ holy_site_targoviste_effect_name:0 "From [holy_site|E] #weak ($holy_site_targoviste_name$)#!"

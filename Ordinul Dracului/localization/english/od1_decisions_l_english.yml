@@ -1,0 +1,12 @@
+﻿l_english:
+ # Become Dracului
+ become_dracul_decision:0 "Visit the Mountains"
+ become_dracul_decision_tooltip:0 "Visit the mountains and see what's there."
+ become_dracul_decision_desc:0 "After traveling deep into the mountains, you stumble upon a cave. There you find a man who wants to give you great power."
+ become_dracul_decision_confirm:0 "Become Dracul!"
+
+ # Found Order
+ found_ordinul_dracului_decision:0 "Found the $ordinul_dracului$"
+ found_ordinul_dracului_decision_tooltip:1 "You establish the $ordinul_dracului$ cult."
+ found_ordinul_dracului_decision_desc:0 "#F The The world will see what great power I wield!#!"
+ found_ordinul_dracului_decision_confirm:0 "For $ordinul_dracului_god_name$!"

@@ -1,0 +1,30 @@
+﻿namespace = found_ordinul_dracului
+
+found_ordinul_dracului.0001 = {
+	type = character_event
+	title = found_ordinul_dracului.0001.t
+	desc = found_ordinul_dracului.0001.desc
+
+	left_portrait = {
+		character = root
+		animation = ecstasy
+	}
+	theme = faith
+	# theme = culture_change
+
+	immediate = {
+		play_music_cue = "mx_cue_epic_sacral_moment"
+	}
+
+	option = {
+		name = found_ordinul_dracului.0001.a
+		set_up_dynamic_temporal_hof_title_effect = { NEW_HOLDER = root }
+
+		# faith = {
+		# 	set_variable = {
+		# 		name = player_created_faith
+		# 		value = yes
+		# 	}
+		# }
+	}
+}

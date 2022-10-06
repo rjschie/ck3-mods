@@ -1,0 +1,63 @@
+﻿l_english:
+ ordinul_religion:0 "Ordinul"
+ ordinul_religion_adj:0 "Ordine"
+ ordinul_religion_desc:0 "A group of cultish orders."
+ ordinul_religion_adherent:0 "Member"
+ ordinul_religion_adherent_plural:0 "Members"
+ ordinul_religion_adherent_desc:0 "Any organized order."
+
+ ordinul_dracului:0 "Ordinul Dracului"
+ ordinul_dracului_adj:0 "Ordine Draconica"
+ ordinul_dracului_adherent:0 "Dracul"
+ ordinul_dracului_adherent_plural:0 "Draculi"
+ ordinul_dracului_desc:0 "Not much is known about these ancient beliefs."
+
+ ordinul_dracului_god_name:0 "Blood-Father"
+ ordinul_dracului_god_name_possessive:0 "Blood-Father's"
+ ordinul_dracului_god_name_alternate:0 "Sursă"
+ ordinul_dracului_god_name_alternate_possessive:0 "Sursă's"
+ ordinul_dracului_god_herself_himself:0 "Himself"
+ ordinul_dracului_god_her_his:0 "His"
+ ordinul_dracului_god_she_he:0 "He"
+
+ ordinul_dracului_god_has_have:0 "Has"
+
+ ordinul_dracului_death_god_her_his:0 "his"
+ ordinul_dracului_death_god_name:0 "Death"
+ ordinul_dracului_death_god_name_possessive:0 "Death's"
+ ordinul_dracului_death_god_she_he:0 "he"
+
+ ordinul_dracului_evil_god_her_his:0 "his"
+ ordinul_dracului_evil_god_herself_himself:0 "himself"
+ ordinul_dracului_evil_god_name:0 "Malloch"
+ ordinul_dracului_evil_god_name_possessive:0 "Malloch's"
+ ordinul_dracului_evil_god_she_he:0 "he"
+
+ ordinul_dracului_mistress_master:0 "Master"
+ ordinul_dracului_mother_father:0 "Father"
+
+ ordinul_dracului_gwh_term:0 "Great War"
+ ordinul_dracului_gwh_term_plural:0 "Great Wars"
+
+ ordinul_dracului_divine_realm:0 "Great Paradise"
+ ordinul_dracului_hell_realm:0 "the Great Fire"
+
+ ordinul_dracului_house_of_worship:0 "tâmplă"
+ ordinul_dracului_house_of_worship_plural:0 "temple"
+
+ ordinul_dracului_devotee_male:0 "apărător"
+ ordinul_dracului_devotee_male_plural:0 "apărători"
+ ordinul_dracului_devotee_female:0 "nun"
+ ordinul_dracului_devotee_female_plural:0 "nuns"
+
+ ordinul_dracului_priest:0 "păstrător"
+ ordinul_dracului_priest_plural:0 "păstrători"
+
+ ordinul_dracului_bishop:0 "pază"
+ ordinul_dracului_bishop_plural:0 "paznici"
+
+ ordinul_dracului_religious_head:0 "Dracul"
+ ordinul_dracului_religious_head_title:0 "Draculea"
+
+ ordinul_dracului_religious_symbol:0 "Spear"
+ ordinul_dracului_religious_text:0 "sacru texts"

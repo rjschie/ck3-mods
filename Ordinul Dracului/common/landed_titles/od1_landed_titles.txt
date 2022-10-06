@@ -1,0 +1,13 @@
+﻿k_ordinul_dracului = {
+	color = { 190 7 7 }
+
+	landless = yes
+	capital = c_campulung
+	definite_form = yes
+	ruler_uses_title_name = no
+
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = yes
+}

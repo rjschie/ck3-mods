@@ -1,0 +1,8 @@
+﻿targoviste = {
+	county = c_campulung
+	barony = b_targoviste
+
+	character_modifier = {
+		development_growth_factor = 0.1
+	}
+}

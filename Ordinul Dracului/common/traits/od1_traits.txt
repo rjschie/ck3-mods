@@ -1,0 +1,43 @@
+﻿dracul = {
+	commander = yes
+
+	inherit_chance = 0
+	birth = 0
+	random_creation = 0
+	shown_in_ruler_designer = no
+
+	# Considering other traits coming in
+	fertility = -0.9
+	immortal = 25
+	health = 5
+
+	# Skills; Be sure these consider other traits being added onto the character
+	diplomacy = 4
+	martial = 5
+	stewardship = 3
+	intrigue = 3
+	learning = 2
+	prowess = 8
+
+	general_opinion = -10
+	army_maintenance_mul = -0.25
+	hills_advantage = 4
+	mountains_advantage = 6
+	winter_advantage = 3
+
+	dread_gain_mult = 0.75
+	dread_baseline_add = 10
+
+	monthly_lifestyle_xp_gain_mult = 0.2
+	negate_health_penalty_add = 1
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_dracul_desc
+			}
+			desc = trait_dracul_character_desc
+		}
+	}
+}

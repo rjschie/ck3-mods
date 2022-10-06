@@ -1,0 +1,202 @@
+﻿ordinul_religion = {
+	family = rf_abrahamic
+	graphical_faith = pagan_gfx
+
+	doctrine_background_icon = core_tenet_banner_christian.dds
+	doctrine = abrahamic_hostility_doctrine
+
+	#Main Group
+	doctrine = doctrine_temporal_head
+	doctrine = doctrine_gender_male_dominated
+	doctrine = doctrine_pluralism_pluralistic
+	doctrine = doctrine_theocracy_temporal
+
+	#Marriage
+	doctrine = doctrine_monogamy
+	doctrine = doctrine_divorce_approval
+	doctrine = doctrine_bastardry_legitimization
+	doctrine = doctrine_consanguinity_aunt_nephew_and_uncle_niece
+
+	#Crimes
+	doctrine = doctrine_homosexuality_crime
+	doctrine = doctrine_adultery_men_crime
+	doctrine = doctrine_adultery_women_crime
+	doctrine = doctrine_kinslaying_extended_family_crime
+	doctrine = doctrine_deviancy_crime
+	doctrine = doctrine_witchcraft_accepted
+
+	#Clerical Functions
+	doctrine = doctrine_clerical_function_taxation
+	doctrine = doctrine_clerical_gender_either
+	doctrine = doctrine_clerical_marriage_allowed
+	doctrine = doctrine_clerical_succession_temporal_fixed_appointment
+
+	traits = {
+		virtues = { brave }
+		sins = { craven }
+	}
+
+	custom_faith_icons = {
+		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 ibadi_custom muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1
+	}
+
+	localization = {
+		HighGodHerHis = ordinul_dracului_god_her_his
+		HighGodHerselfHimself = ordinul_dracului_god_herself_himself
+		HighGodName = ordinul_dracului_god_name
+		HighGodName2 = ordinul_dracului_god_name
+		HighGodNameAlternate = ordinul_dracului_god_name_alternate
+		HighGodNameAlternatePossessive = ordinul_dracului_god_name_alternate_possessive
+		HighGodNamePossessive = ordinul_dracului_god_name_possessive
+		HighGodNameSheHe = ordinul_dracului_god_she_he
+
+		GoodGodNames = { ordinul_dracului_god_name }
+		EvilGodNames = { ordinul_dracului_evil_god_name }
+
+		PantheonTerm = ordinul_dracului_god_she_he
+		PantheonTerm2 = ordinul_dracului_god_she_he
+		PantheonTerm3 = ordinul_dracului_god_she_he
+		PantheonTermHasHave = ordinul_dracului_god_has_have
+
+		CreatorHerHim = ordinul_dracului_god_herself_himself
+		CreatorHerHis = ordinul_dracului_god_her_his
+		CreatorName = ordinul_dracului_god_name
+		CreatorNamePossessive = ordinul_dracului_god_name_possessive
+		CreatorSheHe = ordinul_dracului_god_she_he
+
+		DeathDeityHerHis = ordinul_dracului_death_god_her_his
+		DeathDeityName = ordinul_dracului_death_god_name
+		DeathDeityNamePossessive = ordinul_dracului_death_god_name_possessive
+		DeathDeitySheHe = ordinul_dracului_death_god_she_he
+
+		DevilHerHis = ordinul_dracului_evil_god_her_his
+		DevilHerselfHimself = ordinul_dracului_evil_god_herself_himself
+		DevilName = ordinul_dracului_evil_god_name
+		DevilNamePossessive = ordinul_dracului_evil_god_name_possessive
+		DevilSheHe = ordinul_dracului_evil_god_she_he
+
+		FateGodHerHim = ordinul_dracului_god_herself_himself
+		FateGodHerHis = ordinul_dracului_god_her_his
+		FateGodName = ordinul_dracului_god_name
+		FateGodNamePossessive = ordinul_dracului_god_name_possessive
+		FateGodSheHe = ordinul_dracului_god_she_he
+		FertilityGodHerHim = ordinul_dracului_god_herself_himself
+		FertilityGodHerHis = ordinul_dracului_god_her_his
+		FertilityGodName = ordinul_dracului_god_name
+		FertilityGodNamePossessive = ordinul_dracului_god_name_possessive
+		FertilityGodSheHe = ordinul_dracului_god_she_he
+		HealthGodHerHim = ordinul_dracului_god_herself_himself
+		HealthGodHerHis = ordinul_dracului_god_her_his
+		HealthGodName = ordinul_dracului_god_name
+		HealthGodNamePossessive = ordinul_dracului_god_name_possessive
+		HealthGodSheHe = ordinul_dracului_god_she_he
+		HouseholdGodHerHim = ordinul_dracului_god_herself_himself
+		HouseholdGodHerHis = ordinul_dracului_god_her_his
+		HouseholdGodName = ordinul_dracului_god_name
+		HouseholdGodNamePossessive = ordinul_dracului_god_name_possessive
+		HouseholdGodSheHe = ordinul_dracului_god_she_he
+		KnowledgeGodHerHim = ordinul_dracului_god_herself_himself
+		KnowledgeGodHerHis = ordinul_dracului_god_her_his
+		KnowledgeGodName = ordinul_dracului_god_name
+		KnowledgeGodNamePossessive = ordinul_dracului_god_name_possessive
+		KnowledgeGodSheHe = ordinul_dracului_god_she_he
+		NightGodHerHim = ordinul_dracului_god_herself_himself
+		NightGodHerHis = ordinul_dracului_god_her_his
+		NightGodName = ordinul_dracului_god_name
+		NightGodNamePossessive = ordinul_dracului_god_name_possessive
+		NightGodSheHe = ordinul_dracului_god_she_he
+		TricksterGodHerHim = ordinul_dracului_god_herself_himself
+		TricksterGodHerHis = ordinul_dracului_god_her_his
+		TricksterGodName = ordinul_dracului_god_name
+		TricksterGodNamePossessive = ordinul_dracului_god_name_possessive
+		TricksterGodSheHe = ordinul_dracului_god_she_he
+		WarGodHerHim = ordinul_dracului_god_herself_himself
+		WarGodHerHis = ordinul_dracului_god_her_his
+		WarGodName = ordinul_dracului_god_name
+		WarGodNamePossessive = ordinul_dracului_god_name_possessive
+		WarGodSheHe = ordinul_dracului_god_she_he
+		WaterGodHerHim = ordinul_dracului_god_herself_himself
+		WaterGodHerHis = ordinul_dracului_god_her_his
+		WaterGodName = ordinul_dracului_god_name
+		WaterGodNamePossessive = ordinul_dracului_god_name_possessive
+		WaterGodSheHe = ordinul_dracului_god_she_he
+		WealthGodHerHim = ordinul_dracului_god_herself_himself
+		WealthGodHerHis = ordinul_dracului_god_her_his
+		WealthGodName = ordinul_dracului_god_name
+		WealthGodNamePossessive = ordinul_dracului_god_name_possessive
+		WealthGodSheHe = ordinul_dracului_god_she_he
+		WitchGodHerHim = ordinul_dracului_god_herself_himself
+		WitchGodHerHis = ordinul_dracului_god_her_his
+		WitchGodMistressMaster = ordinul_dracului_mistress_master
+		WitchGodMotherFather = ordinul_dracului_mother_father
+		WitchGodName = ordinul_dracului_god_name
+		WitchGodNamePossessive = ordinul_dracului_god_name_possessive
+		WitchGodSheHe = ordinul_dracului_god_she_he
+
+		# Holy war
+		GHWName = ordinul_dracului_gwh_term
+		GHWNamePlural = ordinul_dracului_gwh_term_plural
+
+		DivineRealm = ordinul_dracului_divine_realm
+		DivineRealm2 = ordinul_dracului_divine_realm
+		DivineRealm3 = ordinul_dracului_divine_realm
+
+		PositiveAfterLife = ordinul_dracului_divine_realm
+		PositiveAfterLife2 = ordinul_dracului_divine_realm
+		PositiveAfterLife3 = ordinul_dracului_divine_realm
+		NegativeAfterLife = ordinul_dracului_hell_realm
+		NegativeAfterLife2 = ordinul_dracului_hell_realm
+		NegativeAfterLife3 = ordinul_dracului_hell_realm
+
+		HouseOfWorship = ordinul_dracului_house_of_worship
+		HouseOfWorship2 = ordinul_dracului_house_of_worship
+		HouseOfWorship3 = ordinul_dracului_house_of_worship
+		HouseOfWorshipPlural = ordinul_dracului_house_of_worship_plural
+
+		DevoteeFemale = ordinul_dracului_devotee_female
+		DevoteeFemalePlural = ordinul_dracului_devotee_female_plural
+		DevoteeMale = ordinul_dracului_devotee_male
+		DevoteeMalePlural = ordinul_dracului_devotee_male_plural
+		DevoteeNeuter = ordinul_dracului_devotee_male
+		DevoteeNeuterPlural = ordinul_dracului_devotee_male_plural
+
+		PriestFemale = ordinul_dracului_priest
+		PriestFemalePlural = ordinul_dracului_priest_plural
+		PriestMale = ordinul_dracului_priest
+		PriestMalePlural = ordinul_dracului_priest_plural
+		PriestNeuter = ordinul_dracului_priest
+		PriestNeuterPlural = ordinul_dracului_priest_plural
+		AltPriestTermPlural = ordinul_dracului_priest_plural
+
+		BishopFemale = ordinul_dracului_bishop
+		BishopFemalePlural = ordinul_dracului_bishop_plural
+		BishopMale = ordinul_dracului_bishop
+		BishopMalePlural = ordinul_dracului_bishop_plural
+		BishopNeuter = ordinul_dracului_bishop
+		BishopNeuterPlural = ordinul_dracului_bishop_plural
+
+		ReligiousHeadName = ordinul_dracului_religious_head
+		ReligiousHeadTitleName = ordinul_dracului_religious_head_title
+
+		ReligiousSymbol = ordinul_dracului_religious_symbol
+		ReligiousSymbol2 = ordinul_dracului_religious_symbol
+		ReligiousSymbol3 = ordinul_dracului_religious_symbol
+		ReligiousText = ordinul_dracului_religious_text
+		ReligiousText2 = ordinul_dracului_religious_text
+		ReligiousText3 = ordinul_dracului_religious_text
+	}
+
+	faiths = {
+		ordinul_dracului = {
+			color = { 255 10 10 }
+			religious_head = k_ordinul_dracului
+
+			holy_site = targoviste
+
+			# Tenets
+			doctrine = tenet_communion
+			doctrine = tenet_communal_identity
+			doctrine = tenet_human_sacrifice
+		}
+	}
+}

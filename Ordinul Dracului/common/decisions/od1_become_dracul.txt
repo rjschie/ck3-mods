@@ -1,0 +1,50 @@
+﻿become_dracul_decision = {
+	ai_check_interval = 0
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		culture = culture:vlach
+	}
+
+	effect = {
+		add_trait = education_learning_2
+
+		add_trait = intellect_good_2
+
+		# Dracul is more of a prowess/commander trait
+		add_trait = dracul
+		add_trait = flexible_leader
+		# add_trait = peasant_leader
+		# add_trait = rough_terrain_expert
+		# add_trait = winter_soldier
+
+		# Soldier traits, keeping these for their event/decision benefits
+		add_trait = blademaster_2
+		add_trait = hunter_3
+
+		# Would be nice to consolidate down to these, but events/decisions....
+		#   Family: family_first, overseer
+		#   Jaded: Cynical, Schemer, Seducer, Reclusive
+		#   Dracul: blademaster, hunter, peasant leader, flexible leader, rough terrain expert, winter soldier
+		#   Mesmerizing: Beauty, Physique, Seducer
+
+		add_trait = wrathful
+		add_trait = ambitious
+		add_trait = callous
+		add_trait = torturer
+
+		# Family
+		add_trait = family_first
+
+		# Jaded
+		add_trait = cynical
+		add_trait = schemer
+		add_trait = reclusive
+
+		# Mesmerizing
+		add_trait = seducer
+		add_trait = beauty_good_3
+		add_trait = physique_good_1
+	}
+}

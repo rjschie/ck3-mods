@@ -1,0 +1,5 @@
+﻿l_english:
+ # Dracul 01
+ trait_dracul:0 "Dracul"
+ trait_dracul_desc:0 "This character has a dreadful, mysterious nature."
+ trait_dracul_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has a dreadful, mysterious nature."
