@@ -6,7 +6,7 @@
 	doctrine = abrahamic_hostility_doctrine
 
 	#Main Group
-	doctrine = doctrine_temporal_head
+	doctrine = doctrine_no_head
 	doctrine = doctrine_gender_male_dominated
 	doctrine = doctrine_pluralism_pluralistic
 	doctrine = doctrine_theocracy_temporal
@@ -32,8 +32,8 @@
 	doctrine = doctrine_clerical_succession_temporal_fixed_appointment
 
 	traits = {
-		virtues = { brave }
-		sins = { craven }
+		virtues = { brave cynical }
+		sins = { craven zealous }
 	}
 
 	custom_faith_icons = {
@@ -191,13 +191,11 @@
 			color = { 255 10 10 }
 			icon = custom_faith_1
 
-			religious_head = k_ordinul_dracului
-
 			holy_site = targoviste
 
 			# Tenets
-			doctrine = tenet_communion
 			doctrine = tenet_communal_identity
+			doctrine = tenet_ritual_cannibalism
 			doctrine = tenet_human_sacrifice
 		}
 	}

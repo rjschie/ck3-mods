@@ -1,10 +1,13 @@
 ﻿become_dracul_decision = {
+	picture = "gfx/interface/illustrations/event_scenes/mountains.dds"
+
 	ai_check_interval = 0
 
 	is_shown = {
 		is_ruler = yes
 		is_landed = yes
 		culture = culture:vlach
+		NOT = { has_trait = dracul }
 	}
 
 	effect = {
@@ -14,6 +17,7 @@
 
 		# Dracul is more of a prowess/commander trait
 		add_trait = dracul
+		add_trait = cannibal
 		add_trait = flexible_leader
 		# add_trait = peasant_leader
 		# add_trait = rough_terrain_expert

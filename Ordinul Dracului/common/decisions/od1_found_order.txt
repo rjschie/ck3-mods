@@ -7,13 +7,13 @@
 	is_shown = {
 		is_ruler = yes
 		is_landed = yes
-		# has_trait = dracul
-		# culture = culture:vlach
+		has_trait = dracul
+		culture = culture:vlach
 
 		NOT = {
 		  is_target_in_global_variable_list = {
 		    name = unavailable_unique_decisions
-		    target = flag:flag_founded_ordinul_dracului
+		    target = flag:flag_founded_ordinul_dracului_decision
 		  }
 		}
 	}
@@ -21,8 +21,13 @@
 	effect = {
 		add_to_global_variable_list = {
 		  name = unavailable_unique_decisions
-		  target = flag:found_ordinul_dracului_decision
+		  target = flag:flag_founded_ordinul_dracului_decision
 		}
+
+		remove_trait = craven
+		remove_trait = cynical
+		add_trait = zealous
+		add_prestige = 200
 
 		set_character_faith_with_conversion = faith:ordinul_dracului
 	}

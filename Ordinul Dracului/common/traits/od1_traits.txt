@@ -19,7 +19,10 @@
 	learning = 2
 	prowess = 8
 
-	general_opinion = -10
+	same_culture_opinion = 10
+	same_faith_opinion = 10
+	general_opinion = -5
+
 	army_maintenance_mul = -0.25
 	hills_advantage = 4
 	mountains_advantage = 6
